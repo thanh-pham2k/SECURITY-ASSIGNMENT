@@ -8,7 +8,7 @@ Usage:
 You can use:
 
 ```
-  {python run.py -h*}
+  python run.py -h
 ```
 
 For more details. And there are examples command line below:
