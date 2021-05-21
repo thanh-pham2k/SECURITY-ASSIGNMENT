@@ -7,9 +7,11 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
 Usage:
 You can use:
 
+----------------------- ------------------------------------
   *python run.py -h*
-
 For more details. And there are examples command line below:
+
+----------------------------------------------------------------
 
 python run.py testcase_1_ceasar.txt 17 --decode=True
 
