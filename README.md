@@ -18,7 +18,6 @@ For more details. And there are examples command line below:
 python run.py caesar ptext_0.txt 15
 
 python run.py caesar ptext_0.txt 15 --decode=True
-
 ```
 
 
@@ -34,9 +33,7 @@ TODAYISMONDAY
 After running CMD
 
 ```
-
 python run.py caesar ptext_0.txt 15 --decode=True
-
 ```
 
 We get the result in result_ptext_0.txt
