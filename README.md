@@ -24,10 +24,9 @@ python run.py caesar ptext_0.txt 15 --decode=True
 
 # Example
 
-In file ptext_0.txt we have content:
+In file ptext_0.txt we have the content:
 
 ```
-
 TODAYISMONDAY
 ```
 
