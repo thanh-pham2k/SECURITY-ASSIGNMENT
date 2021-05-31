@@ -15,9 +15,38 @@ For more details. And there are examples command line below:
 
 ----------------------------------------------------------------
 ```
-python run.py testcase_1_ceasar.txt 17 --decode=True
+python run.py caesar ptext_0.txt 15
 
-python run.py testcase_1_ceasar.txt 17 --decode=False
+python run.py caesar ptext_0.txt 15 --decode=True
 
-python run.py testcase_1_ceasar.txt 17
 ```
+
+
+# Example
+
+In file ptext_0.txt we have content:
+
+```
+
+TODAYISMONDAY
+```
+
+
+After running CMD
+
+```
+
+python run.py caesar ptext_0.txt 15 --decode=True
+
+```
+
+We get the result in result_ptext_0.txt
+
+```
+11
+TODAYISMONDAY
+```
+
+First line: key number
+Second line: Content
+
