@@ -45,5 +45,5 @@ TODAYISMONDAY
 
 `First line`: key number
 
-`Second line`: Content
+`Second line`: The content is decoded.
 
