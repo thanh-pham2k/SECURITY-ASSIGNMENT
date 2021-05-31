@@ -40,3 +40,18 @@ def alphaToNumber(L,alpha="ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
 # Convert numbers to letters according to some alphabet
 def numberToAlpha(L,alpha="ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
     return [alpha[i] for i in L]
+
+
+
+def readfile(file_name):
+    log_func("readfile")
+    file = open(file_name)
+    data = file.read()
+    file.close()
+    return data
+
+def writefile(file_name,content):
+    with open(file_name,'a') as fp:
+        fp.write("".join(content))
+    
+    
