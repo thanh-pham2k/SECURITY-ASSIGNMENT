@@ -187,7 +187,7 @@ def run_railFence():
             print('run.py railFence attack <File name>')
 # Use both caesar_railFence
 # ========================================================================
-def caesar_railFence(text, key1, key2,):
+def caesar_railFence(text, key1, key2):
     temp = caesar(text, key1)
     return railfence(temp, key2)
 
