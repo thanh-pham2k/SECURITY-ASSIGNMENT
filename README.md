@@ -47,3 +47,27 @@ TODAYISMONDAY
 
 `Second line`: The content is decoded.
 
+# RailFence algorithm
+
+```
+run.py railFence encode <Key> <File name>
+```
+We get the result in ciphertext.txt
+
+```
+run.py railFence decode <Key> <File name>
+```
+We get the result in plaintext.txt
+
+```
+run.py railFence attack <File name>
+```
+We get the result in plaintext.txt
+
+# Product cipher algorithm
+
+```
+run.py caesar_railFence key1 key2 <File name>
+```
+
+We get the result in ciphertext.txt
